@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.Controller">
+   <children>
+      <Button fx:id="startBtn" layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#startServer" text="Start Server" />
+      <TextArea fx:id="serverText" editable="false" focusTraversable="false" layoutX="25.0" layoutY="25.0" prefHeight="250.0" prefWidth="500.0" wrapText="true" />
+      <Button fx:id="stopBtn" layoutX="448.0" layoutY="300.0" mnemonicParsing="false" onAction="#stopServer" text="Stop Server" />
+      <Button fx:id="clearText" layoutX="223.0" layoutY="300.0" mnemonicParsing="false" onAction="#clearServerWindow" text="Clear Server Text" />
+   </children>
+</Pane>
